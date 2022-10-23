@@ -1,0 +1,142 @@
+/* COMMON */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* FONT */
+/* font-family: 'Orbitron', sans-serif; */
+
+body{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+}
+.member_1{
+  background-color: antiquewhite;
+}
+/* SECTION.WRAP */
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 320px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px #acacac;
+  padding: 50px;
+}
+
+
+/* ARTICLE.PROFILE */
+.wrap .profile {
+  text-align: center;
+}
+.wrap .profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgb(255, 213, 136);
+  margin-bottom: 30px;
+}
+.wrap .profile h1{
+  font-weight: bolder;
+  font-size: 25px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.wrap .profile p{
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;  
+}
+.wrap .profile .btnView {
+  display: inline-block;
+  background-color: rgb(240, 175, 55);
+  width: 150px;
+  height: 30px;
+  color: white;
+  font: bold 14px/30px 'orbitron';
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgb(255, 213, 136);
+  margin-bottom: 20px;
+}
+
+
+/* UL.CONTACT */
+.wrap .contact li{
+  padding: 10px 15px;
+
+}
+.wrap .contact li:first-child{
+  border-bottom: 1px solid #ddd;
+}
+
+.wrap .contact li a{
+  font-size: 12px;
+  color: #777;
+}
+.wrap .contact li a i {
+  margin-right: 20px;
+}
+
+/* NAV.OTHERS */
+.wrap .others{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .others a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 30px 10px;
+}
+.wrap .others .on {
+  background-color: rgb(240, 175, 55);
+  box-shadow: 5px 5px 20px rgb(255, 213, 136);
+}
+
+
+/* MEMBER_2 CUSTOM */
+.member_2{
+  background-color: rgb(228, 247, 255);
+}
+.member_2 > .wrap .profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px skyblue;
+  margin-bottom: 30px;
+}
+.member_2 > .wrap .profile .btnView {
+  display: inline-block;
+  background-color: rgb(100, 177, 240);
+  width: 150px;
+  height: 30px;
+  color: white;
+  font: bold 14px/30px 'orbitron';
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgb(136, 200, 252);
+  margin-bottom: 20px;
+}
+.member_2 > .wrap .others .on {
+  background-color: rgb(100, 177, 240);
+  box-shadow: 5px 5px 20px rgb(136, 200, 252);
+}
